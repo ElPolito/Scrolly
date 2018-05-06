@@ -15,12 +15,12 @@ Pour ajouter une scrollbar sur un élément, il faut ajouter l'attribut **scroll
 C'est tout !
 
 #### Attention
-Pour que tout fonctionne correctement, l'élément cible doit avoir une position différentes de **static**, avoir un overflow hidden et posséder un seul enfant.
+Pour que tout fonctionne correctement, l'élément cible doit avoir une **position** différentes de **static**, avoir un **overflow** **hidden** et posséder un seul enfant.
 
 ## Personnaliser vos ScrollBars
 Vous pouvez personnaliser vos scrollbars en ajoutant des attributs.
 
-Tout d'abord, par défaut, scrolly n'affiche que la barre verticale, si vous souhaitez aussi la barre horizontale ajoutez l'attribut scrolly-hor.
+Tout d'abord, par défaut, scrolly n'affiche que la barre verticale, si vous souhaitez aussi la barre horizontale ajoutez l'attribut **scrolly-hor**.
 
 Ensuite, scrolly affiche les barres à droite et en bas, vous pouvez changer la position avec les attributs **scrolly-left** et **scrolly-top**.
 
