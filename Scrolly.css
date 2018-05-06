@@ -1,0 +1,186 @@
+/**//**//**//**//**//**//**//**/
+/**//**//*  Default   *//**//**/
+/**//**//**//**//**//**//**//**/
+
+/* Scrolly Vertical */
+div.Scrolly-default{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	/* A modifier */
+	background : #252525;
+	border-radius: 10px;
+	z-index: 100;
+}
+div.Scrolly-default div{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0;
+	left: 0; right: 0;
+	height: 100px;
+	/* A modifier */
+	background: #050505;
+	border-radius: 10px;
+	min-height: 8px;
+}
+div.Scrolly-default .Scrolly-UpArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	height: 30px;
+	/* A modifier */
+	border-radius: 10px 10px 0 0;
+	background: #454545;
+}
+div.Scrolly-default .Scrolly-DownArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 15px;
+	/* A modifier */
+	border-radius: 0 0 10px 10px;
+	background: #454545;
+}
+
+/* Scrolly Horizontal */
+div.Scrolly-Hor-default{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 10px;
+	/* A modifier */
+	background: #252525;
+	border-radius: 10px;
+}
+div.Scrolly-Hor-default div{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	left: 0; top: 0; bottom: 0;
+	width: 100px;
+	/* A modifier */
+	background: #050505;
+	border-radius: 10px;
+	min-width: 8px;
+}
+div.Scrolly-Hor-default .Scrolly-LeftArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0; bottom: 0; left: 0;
+	width: 15px;
+	/* A modifier */
+	border-radius: 10px 0 0 10px;
+	background: #454545;
+}
+div.Scrolly-Hor-default .Scrolly-RightArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0; bottom: 0; right: 0;
+	width: 15px;
+	/* A modifier */
+	border-radius: 0 10px 10px 0;
+	background: #454545;
+}
+
+/**//**//**//**//**//**//**//**/
+/**//**//*   Normal   *//**//**/
+/**//**//**//**//**//**//**//**/
+
+/* Scrolly Vertical */
+div.Scrolly-normal{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	/* A modifier */
+	background : #999;
+	border-radius: 0px;
+}
+div.Scrolly-normal div{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0;
+	left: 0; right: 0;
+	height: 100px;
+	/* A modifier */
+	background: #777;
+	border-radius: 0px;
+	min-height: 8px;
+}
+div.Scrolly-normal .Scrolly-UpArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	height: 15px;
+	/* A modifier */
+	border-radius: 0px 0px 0 0;
+	background: #454545;
+}
+div.Scrolly-normal .Scrolly-DownArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 15px;
+	/* A modifier */
+	border-radius: 0 0 0px 0px;
+	background: #454545;
+}
+
+/* Scrolly Horizontal */
+div.Scrolly-Hor-normal{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 10px;
+	/* A modifier */
+	background: #999;
+	border-radius: 0px;
+}
+div.Scrolly-Hor-normal div{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	left: 0; top: 0; bottom: 0;
+	width: 100px;
+	/* A modifier */
+	background: #777;
+	border-radius: 0px;
+	min-width: 8px;
+}
+div.Scrolly-Hor-normal .Scrolly-LeftArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0; bottom: 0; left: 0;
+	width: 15px;
+	/* A modifier */
+	border-radius: 0px 0 0 0px;
+	background: #454545;
+}
+div.Scrolly-Hor-normal .Scrolly-RightArrow{
+	/* A conserver */
+	all : initial;
+	position: absolute;
+	top: 0; bottom: 0; right: 0;
+	width: 15px;
+	/* A modifier */
+	border-radius: 0 0px 0px 0;
+	background: #454545;
+}
